@@ -1,4 +1,4 @@
-#  Housing Services Victoria Project
+#  Ministry of Magic Project
 
 ![Travis](https://travis-ci.org/CodeforAustralia/vhs.svg?branch=master)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
