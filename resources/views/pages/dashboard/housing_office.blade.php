@@ -6,7 +6,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <div class="ho-header">My Housing Office</div>
+              <div class="ho-header">My local Ministry of Magic Office</div>
             </div>
           </div>
           <div class="row">
@@ -15,8 +15,8 @@
                 <i class="fa fa-map-marker fa-2x"></i>
               </div>
               <div class="ho-text">
-                Fitzroy Office<br/>
-                145 Smith St, Fitzroy VIC 3065
+                Melbourne Office<br/>
+                211 Elizabeth Street, Melbourne VIC 3000
               </div>
             </div>
             <div class="col-md-7 col-sm-7 ho-text-wrapper">
@@ -24,7 +24,7 @@
                 <i class="fa fa-phone fa-2x"></i>
               </div>
               <div class="ho-text">
-                <a class="phone" href="tel:1300360408">1300&nbsp;360&nbsp;408</a>
+                <a class="phone" href="tel:1300462442">1300&nbsp;4&nbsp;MAGIC</a>
               </div>
             </div>
           </div>

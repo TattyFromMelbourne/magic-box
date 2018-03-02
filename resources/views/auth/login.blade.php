@@ -7,7 +7,7 @@
 
           <div class="panel-heading">
             <div class="welcome-banner">
-              <h3>Sign in to Housing Services Victoria</h3>
+              <h3>Sign in to Housing Services Ministry of Magic Portal</h3>
             </div>
           </div>
 

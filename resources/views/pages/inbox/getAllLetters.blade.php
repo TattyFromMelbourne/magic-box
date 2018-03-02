@@ -17,7 +17,7 @@
                 <div class="inbox_panel-primary">
                     <div class="panel-heading">
                         <div class="col-md-10 services_heading_right">
-                            <h3>Your Housing Letters</h3>
+                            <h3>Your Letters from the Ministry of Magic</h3>
                         </div>
                         <div class="col-md-2 services_heading_right">
                             <div class="toolbox-banner mail_icon-link">

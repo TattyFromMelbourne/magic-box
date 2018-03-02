@@ -36,7 +36,7 @@ class NotificationSMSController extends Controller
 		$this->sendMessage(
 			$user,
 			$user_mobile,
-			'You have a new letter in the Housing Services Victoria Portal. Please log into your account to access your mail.'
+			'You have a new letter in the Ministry of Magic Portal. Please log into your account to access your mail.'
 			);
 	}
 

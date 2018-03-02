@@ -42,7 +42,7 @@
 					<div class="col-md-10 footer-wrapper">
 						<div id="copyright-notice" class="col-md-7">
 							<div class="footer-text">
-								Department of Health and Human Services,  <br/>State Government of Victoria, Australia &copy; <?php echo date("Y"); ?>
+								Department of Mysteries,  <br/>Ministry of Magic, Australia &copy; <?php echo date("Y"); ?>
 							</div>
 						</div>
 

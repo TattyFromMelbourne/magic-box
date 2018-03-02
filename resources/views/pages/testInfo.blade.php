@@ -37,7 +37,7 @@
   </ul>
   <div style="margin-top: 30px;">
     <div float:left>
-      <h3>Thanks for taking the time to check out the Housing Services Victoria MVP</h3>
+      <h3>Thanks for taking the time to check out the Ministry of Magic MVP</h3>
     </div>
     <div float:right>
       <img src="https://lh4.googleusercontent.com/-aGGlZgLfpww/VwbEmpJ2OsI/AAAAAAAAABA/V1Wmm0P2JBsUMihZA-14kZB4dTqUUEzaACJkC/w160-h160-k-no/">

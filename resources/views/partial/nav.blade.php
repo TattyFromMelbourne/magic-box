@@ -12,7 +12,7 @@
       <a id="menu" href="">MENU</a>
 
       <a class="navbar-brand" href="{{ url('/dashboard') }} ">
-        Housing Services Victoria
+        Ministry of Magic
       </a>
 
     </div>
