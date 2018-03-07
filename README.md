@@ -7,16 +7,16 @@
 Laravel 5.6
 
 ### Installation
-**1. **To run your own version of this web application, install it on a LAMP or LEMP (Linux, nginx, MySQL and PHP) stack. See <a href="https://laravel.com/docs/5.6/installation" target="_blank">https://laravel.com/docs/5.6/installation</a> for more detailed installation instructions on how to set up Laravel.
+**1.** To run your own version of this web application, install it on a LAMP or LEMP (Linux, nginx, MySQL and PHP) stack. See <a href="https://laravel.com/docs/5.6/installation" target="_blank">https://laravel.com/docs/5.6/installation</a> for more detailed installation instructions on how to set up Laravel.
 
-**2. **Once you have your Laravel environment set up, you will want to clone this repository and then run the composer and npm installs (the packages are detailed in *composer.lock* and *package-lock.json* respectively.)
+**2.** Once you have your Laravel environment set up, you will want to clone this repository and then run the composer and npm installs (the packages are detailed in *composer.lock* and *package-lock.json* respectively.)
 
 ```bash
 git clone https://github.com/TattyFromMelbourne/magic-box.git
 cd magic-box
 composer install && npm install
 ```
-**Note **that the requirements for Laravel 5.6 are for PHP version 7.1.3 or higher. Now here we are requiring 7.2.3 (a current stable release at the time of writing) but if a lower version is installed in your environment you can change the *composer.json* and *composer.lock* to a lower version. The block in question is this:-
+**Note** that the requirements for Laravel 5.6 are for PHP version 7.1.3 or higher. Now here we are requiring 7.2.3 (a current stable release at the time of writing) but if a lower version is installed in your environment you can change the *composer.json* and *composer.lock* to a lower version. The block in question is this:-
 
 ```json
 "config": {
@@ -35,7 +35,7 @@ After that you may want to do a composer update and npm update.
 composer update && npm update
 ```
 
-**3. **In the *.env* file maintain:-
+**3.** In the *.env* file maintain:-
 <ul type="square">
     <li>database connection credentials</li>
     <li>API credentials for
@@ -48,7 +48,7 @@ composer update && npm update
 </ul>
 
 
-**4. **Finally, create the tables in the database by using the usual Laravel migration:-
+**4.** Finally, create the tables in the database by using the usual Laravel migration:-
 ```bash
 php artisan migrate
 ```
