@@ -1,22 +1,28 @@
-#  Project
+#  magic-box
 
 ![Travis](https://travis-ci.org/CodeforAustralia/vhs.svg?branch=master)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ### Built With
-Laravel 5.4
+Laravel 5.6
 
 ### Requirements
-To run your own version of this web application, install it on a LAMP or LEMP (Linux, nginx, MySQL and PHP) stack. Familiarity with Laravel 5.4+ is required.
+To run your own version of this web application, install it on a LAMP or LEMP (Linux, nginx, MySQL and PHP) stack. See <a href="https://laravel.com/docs/5.6/installation" target="_blank">https://laravel.com/docs/5.6/installation</a> for more detailed installation instructions on how to set up Laravel.
 
-The recommended technical stack is:
-<ul type="square">
-    <li>Apache / nginx</li>
-    <li>PHP 7+</li>
-    <li>MySQL 5.6+</li>
-    <li>Composer</li>
-    <li>Laravel - see <a href="https://laravel.com/docs/5.4/installation" target="_blank">https://laravel.com/docs/5.4/installation</a> for more detailed installation instructions</li>
-</ul>
+Once you have your Laravel environment set up, you will want to clone this repository and then run the composer and npm installs (the packages are detailed in *composer.lock* and *package-lock.json* respectively.)
+
+```bash
+git clone https://github.com/TattyFromMelbourne/magic-box.git
+cd magic-box
+composer install && npm install
+```
+
+After that you may want to do a composer update and npm update.
+
+```bash
+composer update && npm update
+```
+
 
 ### API Credentials
 You will need to provide your API credentials for <a href="https://www.twilio.com" target="_blank">Twilio</a> and <a href="https://www.mailgun.com" target="_blank">Mailgun</a> in the _.env_ file.
