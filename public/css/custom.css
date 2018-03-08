@@ -320,7 +320,7 @@ DASHBOARD
 }
 .container-wrapper.services-wrapper {
 	background-color: #faf8f7;
-	padding: 36px 0 50px 0;
+	padding: 50px 0 50px 0;
 }
 
 .placeholder-banner {
@@ -640,6 +640,10 @@ a span.external-link svg {
 	font-size: 16px;
   line-height: 30px;
   text-align: left;
+}
+
+#copyright-notice > .footer-text {
+	margin-top: -20px;
 }
 
 .footer-image-marker {

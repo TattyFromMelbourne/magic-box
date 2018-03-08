@@ -29,7 +29,7 @@
                         </div>
                         @if ($letters->isEmpty())
                         <div class="col-md-12">
-                          <h4 class="extra-info">You have not recieved any letter from the Housing Office</h4>
+                          <h4 class="extra-info">You have not recieved any letters from the Ministry of Magic</h4>
                         </div>
                         @else
                         <div class="col-md-12 services_heading_right">
