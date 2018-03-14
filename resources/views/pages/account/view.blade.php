@@ -117,28 +117,14 @@
 						<div class="col-md-12 contact-address-details">
 							<h4>Services</h4>
 						</div>
-						<div class="col-md-6 contact-address-details">
-							<p>
-								Victorian Housing Register
-								<br/>
-								Effective Date 17 July, 2017
-								<br/>
-								#90181390812
-							</p>
-							<p>
-								Bond - 8 King Rd,
-								<br/>
-								Collingwood VIC 3000
-								<br/>
-								#12490375623
-							</p>
-							<p>
-								Bond - 1 Victoria St,
-								<br/>
-								Melbourne VIC 3000
-								<br/>
-								#234719051923
-							</p>
+						<div class="col-md-12 contact-address-details">
+							@foreach ($user_services as $user_service)
+								<p>
+									{{ $user_service->service->type }}:-<br/>
+									{{ $user_service->service->description }}<br/>
+									Reference Number: {{ $user_service->service->reference_id }}
+								</p>
+	            @endforeach
 							<h4>Privacy &amp; Security</h4>
 							<p>
 								Security Password

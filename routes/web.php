@@ -38,7 +38,12 @@ Route::get('/placeholder', function () {
 Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
 Route::get('/pdf', 'PdfController@index')->name('pdf');
 Route::get('/letters', 'PdfController@allFiles')->name('allFiles');
-Route::get('/accounts', 'AccountDetailsController@index')->name('accounts.index');
+/* Route::get('/accounts', 'AccountDetailsController@index')->name('accounts.index'); */
+
+Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function() {
+	Route::get('/accounts', 'AccountDetailsController@index')->name('accounts.index');
+});
+
 Route::get('/accounts/{id}', 'AccountDetailsController@view')->name('accounts.view');
 Route::post('/accounts/{id}', 'LettersListController@sendLetters')->name('correspondence.sendLetters');
 Route::get('/accounts/edit/{id}', 'AccountDetailsController@edit')->name('accounts.edit');

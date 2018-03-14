@@ -3,10 +3,17 @@
 ![Travis](https://travis-ci.org/CodeforAustralia/vhs.svg?branch=master)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-### Built With
-Laravel 5.6
+## Built With
 
-### Installation
+A number of FOSS (Free and Open Source) libraries have been used:-
+<ul>
+   <li>Laravel 5.6 - <a href="https://github.com/laravel/laravel#license" target="_blank">MIT license</a></li>
+   <li>jQuery 3.2.1 - <a href="https://getbootstrap.com/docs/3.3/getting-started/#license-faqs" target="_blank">MIT license</a></li>
+   <li>Bootstrap 3.3.7 - <a href="https://github.com/necolas/normalize.css/blob/master/LICENSE.md" target="_blank">MIT license</a></li>
+   <li><a href="https://github.com/legalthings/pdf.js-viewer" target="_blank">PDF.js</a> which is a built of pdf.js 1.7.354 - <a href="https://github.com/mozilla/pdf.js/blob/master/LICENSE" target="_blank">Apache 2.0 License</a></li>
+</ul>
+
+## Installation
 **1.** To run your own version of this web application, install it on a LAMP or LEMP (Linux, nginx, MySQL and PHP) stack. See <a href="https://laravel.com/docs/5.6/installation" target="_blank">https://laravel.com/docs/5.6/installation</a> for more detailed installation instructions on how to set up Laravel.
 
 **2.** Once you have your Laravel environment set up, you will want to clone this repository and then run the composer and npm installs (the packages are detailed in *composer.lock* and *package-lock.json* respectively.)
@@ -16,7 +23,7 @@ git clone https://github.com/TattyFromMelbourne/magic-box.git
 cd magic-box
 composer install && npm install
 ```
-**Note** that the requirements for Laravel 5.6 are for PHP version 7.1.3 or higher. Now here we are requiring 7.2.3 (a current stable release at the time of writing) but if a lower version is installed in your environment you can change the *composer.json* and *composer.lock* to a lower version. The block in question is this:-
+**Note** that the requirements for Laravel 5.6 are for PHP version 7.1.3 or higher. Now here we require 7.2.3 (a current stable release at the time of writing) but if a lower version is installed in your environment you can change the *composer.json* and *composer.lock* to a lower version. The block in question is this:-
 
 ```json
 "config": {
@@ -106,22 +113,16 @@ Laravel has a built-in ```notifiable``` trait ( for an explanation of PHP traits
 
 For Twilio API, we have installed ```Aloha/Twilio``` package through ```Composer```. For further reference see <a href="https://github.com/aloha/laravel-twilio" target="_blank">https://github.com/aloha/laravel-twilio</a>.
 
+## Team
 
-### Team
-***
+### Original Code for Australia Fellowship Team
 <ul>
     <li>Tatiana Lenz</li>
     <li>Teresa Villanueva</li>
     <li>Rachelle Salvadora</li>
 </ul>
 
-### Acknowledgement
-***
-
-A number of FOSS (Free and Open Source) libraries have been used.
+### Maintainer of this Fork
 <ul>
-   <li>Laravel 5.4 - <a href="https://github.com/laravel/laravel#license" target="_blank">MIT license</a></li>
-   <li>jQuery 3.2.1 - <a href="https://getbootstrap.com/docs/3.3/getting-started/#license-faqs" target="_blank">MIT license</a></li>
-   <li>Bootstrap 3.3.7 - <a href="https://github.com/necolas/normalize.css/blob/master/LICENSE.md" target="_blank">MIT license</a></li>
-   <li><a href="https://github.com/legalthings/pdf.js-viewer" target="_blank">PDF.js</a> which is a built of pdf.js 1.7.354 - <a href="https://github.com/mozilla/pdf.js/blob/master/LICENSE" target="_blank">Apache 2.0 License</a></li>
+    <li>Tatiana Lenz</li>
 </ul>

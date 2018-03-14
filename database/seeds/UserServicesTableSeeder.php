@@ -19,17 +19,17 @@ class UserServicesTableSeeder extends Seeder
             DB::table('user_services')->insert([
                 [
                 'user_id' => $user->id,
-                'reference_id' => '1923293137'
+                'reference_id' => '2357111317'
                 ],
 
                 [
                   'user_id' => $user->id,
-                  'reference_id' => '2357111317'
+                  'reference_id' => '2357111310'
                 ],
 
                 [
                   'user_id' => $user->id,
-                  'reference_id' => '7102878110'
+                  'reference_id' => '1923293137'
                 ]
 
             ]);

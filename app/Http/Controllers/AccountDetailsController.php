@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\AccountDetails;
+use App\Models\UserService;
 use App\Models\UserAddress;
 use App\User as User;
 use Session;
@@ -49,6 +50,8 @@ class AccountDetailsController extends Controller
         $user_testType = Auth::user()->test_type;
         $AccountDetails = AccountDetails::where('id', $id)->get();
         $UserAddress = UserAddress::where('user_id', $id)->get();
+        $UserServices = UserService::where('user_id', $id)->get();
+
         /* Only authorized to view/ edit own profile, unless logged in as admin */
         $authorized = ( (Auth::user()->id == $id) || (Auth::user()->usertype == 1) ) ? true : false;
 
@@ -56,7 +59,8 @@ class AccountDetailsController extends Controller
         return view('pages/account/view')->with([
             'AccountDetails' => $AccountDetails,
             'UserAddress' => $UserAddress,
-            'user_testType' => $user_testType
+            'user_testType' => $user_testType,
+            'user_services' => $UserServices
             ]);
         } else {
             return redirect()->route('dashboard');

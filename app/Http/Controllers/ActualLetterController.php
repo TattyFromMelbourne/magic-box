@@ -75,7 +75,7 @@ class ActualLetterController extends Controller
       $directory=env('CORRESPONDENCE_DIR');
       $letters = Letters::where('id', $id)->get();
       $letterDate =  Carbon::parse($letters[0]->letter_date)->format('Y-m-d');
-      $fileName = 'DHHS-letter-'. $letterDate. '.pdf';
+      $fileName = 'MOfM-letter-'. $letterDate. '.pdf';
       $authorized = ActualLetterController::hasAuthority($id);
 
       if ($authorized) {
