@@ -16,7 +16,7 @@ A number of FOSS (Free and Open Source) libraries have been used:-
 ## Installation
 **1.** To run your own version of this web application, install it on a LAMP or LEMP (Linux, nginx, MySQL and PHP) stack. See <a href="https://laravel.com/docs/5.6/installation" target="_blank">https://laravel.com/docs/5.6/installation</a> for more detailed installation instructions on how to set up Laravel.
 
-**2.** Once you have your Laravel environment set up, you will want to clone this repository and then run the composer and npm installs (the packages are detailed in *composer.lock* and *package-lock.json* respectively.)
+**2.** Once you have your Laravel environment set up, you will want to clone this repository and then run the composer install (the packages are detailed in *composer.lock*.)
 
 ```bash
 git clone https://github.com/TattyFromMelbourne/magic-box.git
@@ -30,7 +30,7 @@ After that you may want to do a composer update.
 composer update
 ```
 
-***Note that if you are doing a production build you would want to do the following
+*** Note that if you are doing a production build you would want to do the following
 
 ```bash
 composer install --no-dev
