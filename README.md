@@ -126,6 +126,6 @@ For Twilio API, we have installed ```Aloha/Twilio``` package through ```Composer
 
 Use the following credentials to log in:
 
-  Email: __harry@pottermore.com__
+  Email: `harry@pottermore.com`
 
-  Password: __magic__
+  Password: `magic`
