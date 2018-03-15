@@ -21,25 +21,19 @@ A number of FOSS (Free and Open Source) libraries have been used:-
 ```bash
 git clone https://github.com/TattyFromMelbourne/magic-box.git
 cd magic-box
-composer install && npm install
-```
-**Note** that the requirements for Laravel 5.6 are for PHP version 7.1.3 or higher. Now here we require 7.2.3 (a current stable release at the time of writing) but if a lower version is installed in your environment you can change the *composer.json* and *composer.lock* to a lower version. The block in question is this:-
-
-```json
-"config": {
-    "preferred-install": "dist",
-    "sort-packages": true,
-    "optimize-autoloader": true,
-    "platform": {
-        "php": "7.2.3"
-    }
-}
+composer install
 ```
 
-After that you may want to do a composer update and npm update.
+After that you may want to do a composer update.
 
 ```bash
-composer update && npm update
+composer update
+```
+
+***Note that if you are doing a production build you would want to do the following
+
+```bash
+composer install --no-dev
 ```
 
 **3.** In the *.env* file maintain:-
@@ -98,7 +92,6 @@ The first user generated will be an administrator with the login credentials:-
 ```
 
 ### Notes on Notifications
-***
 
 #### To Receive Notification
 To receive sample SMS and email notification go to the following URL<br/>
@@ -126,3 +119,13 @@ For Twilio API, we have installed ```Aloha/Twilio``` package through ```Composer
 <ul>
     <li>Tatiana Lenz</li>
 </ul>
+
+## Demo
+
+[https://tattyfrommelbourne.com](https://TattyFromMelbourne.com)
+
+Use the following credentials to log in:
+
+  Email: __harry@pottermore.com__
+
+  Password: __magic__
