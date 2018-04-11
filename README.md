@@ -16,7 +16,7 @@ Use the following credentials to log in:
 
 ## About
 
-This was originally built as an MVP for a certain government department, here known as the "Ministry of Magic." This addressed some problems that the department had in terms of clients not receiving postal correspondence.
+This was originally built as an MVP for a certain government department, here known as the "Ministry of Magic." This web application addresses some problems that the department had in terms of clients not receiving postal correspondence.
 
 ## Built With
 
