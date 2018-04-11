@@ -3,6 +3,21 @@
 ![Travis](https://travis-ci.org/CodeforAustralia/vhs.svg?branch=master)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
+
+## Demo
+
+[https://tattyfrommelbourne.com](https://TattyFromMelbourne.com)
+
+Use the following credentials to log in:
+
+  Email: `harry@pottermore.com`
+
+  Password: `magic`
+
+## About
+
+This was originally built as an MVP for a certain government department, here known as the "Ministry of Magic." This addressed some problems that the department had in terms of clients not receiving postal correspondence.
+
 ## Built With
 
 A number of FOSS (Free and Open Source) libraries have been used:-
@@ -119,13 +134,3 @@ For Twilio API, we have installed ```Aloha/Twilio``` package through ```Composer
 <ul>
     <li>Tatiana Lenz</li>
 </ul>
-
-## Demo
-
-[https://tattyfrommelbourne.com](https://TattyFromMelbourne.com)
-
-Use the following credentials to log in:
-
-  Email: `harry@pottermore.com`
-
-  Password: `magic`
